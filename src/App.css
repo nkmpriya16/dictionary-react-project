@@ -1,0 +1,96 @@
+.title {
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(4, 76, 79);
+    padding-top: 5%;
+    text-decoration: solid;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 10vh;
+    width: 100%;
+}
+
+input {
+    width: 20%;
+    padding: center;
+    margin-left: 39%;
+    margin-top: 5%;
+}
+
+::placeholder {
+    color: black;
+}
+
+button {
+    margin-top: 1%;
+    margin-left: 47%;
+    color: rgb(32, 53, 53);
+
+}
+
+.fav {
+    margin-left: 47%;
+}
+
+.results {
+    display: flex !important;
+    /*flex-wrap: wrap; */
+    flex-direction: row;
+    /* flex-flow: column wrap; */
+    vertical-align: top;
+    /* justify-content: center; */
+    overflow: hidden;
+    /* align-items: center;
+    align-content: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    color: rgb(21, 15, 18);
+    row-gap: 30px;
+    padding-left: 3%;
+    /* border: 1px rgb(21, 15, 18);
+    border-style: dashed; */
+}
+
+.container {
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.syno {
+    vertical-align: top;
+    width: 300px;
+    justify-content: center;
+}
+
+.anto {
+    vertical-align: top;
+    width: 300px;
+    justify-content: center;
+}
+
+.audio {
+    margin-top: 1%;
+    margin-left: 37%;
+    color: rgb(114, 75, 75);
+}
+
+.favlist {
+    margin-left: 93%;
+}
+
+
+/* .dropdown {
+    vertical-align: top;
+    padding-left: 90%;
+    max-width: 20px;
+    max-height: max-content;
+} */
