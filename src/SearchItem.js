@@ -67,7 +67,7 @@ function SearchItem() {
     dictionaryApi();
     synonymsApi();
     // setAudioLoading(false);
-  }
+  } // end of handleSubmit
 
   function handleBookmarks() {
     bookmarks.includes(searchText)
@@ -75,7 +75,7 @@ function SearchItem() {
       alert("Text already exists")
       :
       setBookmarks([...bookmarks, searchText]);
-  }
+  } // end of handleBookmarks
 
   return (
     <>
